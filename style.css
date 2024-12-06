@@ -1,1 +1,85 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Cor de fundo suave para o corpo */
+}
+
+header {
+    background-color: #d50032; /* Vermelho do Atlético Paranaense */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #000000; /* Preto para o hover */
+}
+
+.content-section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff; /* Fundo branco para contraste */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid #d50032; /* Borda vermelha para reforçar a identidade */
+}
+
+.content-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #000000; /* Preto no footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header, footer {
+        padding: 10px 0;
+    }
+
+    .content-section {
+        padding: 15px;
+        margin: 15px;
+        max-width: 100%;
+    }
+}
 
